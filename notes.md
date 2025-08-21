@@ -17,3 +17,22 @@ git config --global user.email
 2.git add <filename> - stage changes
 3.git commit - m "message"-commit changes
 4.git push - send changes to remote(GitHub)
+
+### 5. Key Git commands
+
+### Initialization
+
+```bash
+git init
+```
+### Tracking changes
+```bash
+git status
+```
+### Undoing changes
+```bash
+git checkout -- <file>
+git reset HEAD <file>
+```
+
+
